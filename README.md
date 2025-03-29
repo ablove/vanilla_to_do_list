@@ -1,86 +1,67 @@
-📝 Todo List Application
+# Todo List Application
+
 A simple, responsive todo list application with persistent storage using localStorage.
 
-🚀 Features
-✅ Add new tasks
-✅ Mark tasks as complete/incomplete
-✅ Edit existing tasks
-✅ Delete tasks
-✅ Filter tasks (All/Active/Completed)
-✅ Persistent storage using localStorage
-✅ Clean and modern UI
-✅ Fully responsive design
-✅ Task counter
+## Features
 
-🛠️ Technologies Used
-HTML5
+- Add new tasks
+- Mark tasks as complete/incomplete
+- Edit existing tasks
+- Delete tasks
+- Filter tasks (All/Active/Completed)
+- Persistent storage using localStorage
+- Clean and modern UI
+- Fully responsive design
+- Task counter
 
-CSS3
+## Technologies Used
 
-JavaScript (ES6)
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Font Awesome for icons
+- localStorage for data persistence
 
-Font Awesome (for icons)
+![Screenshot 1](screenshots/edit_task.png)
 
-localStorage (for data persistence)
+![Screenshot 2](screenshots/homepage.png)
 
-📸 Screenshots
-Task Editing  
-Screenshots/edit_task.png
+![Screenshot 3](screenshots/task_completion.png)
 
+![Screenshot 4](screenshots/filter_tasks_completed.png)
 
-Homepage 
-Screenshots/homepage.png
+## How to Run
 
+1. Clone this repository or download the files
 
-Task Completion 
-Screenshots/task_completion.png
+2. Open the `index.html` file in your web browser
+3. No server or additional dependencies required
 
+## Usage Guide
 
-Filtering Completed Tasks 
-Screenshots/filter_tasks_completed.png
+Adding Tasks
+-Type your task in the input field
+-Press Enter or click the "+ Add" button
 
+Managing Tasks
+-Complete: Click the checkbox
+-Edit: Click the edit (pencil) button
+-Delete: Click the delete (trash) button
 
-📌 How to Run
-1️⃣ Clone this repository or download the files
-2️⃣ Open the index.html file in your web browser
-3️⃣ No server or additional dependencies required
+Filtering Tasks
+-All: Shows all tasks (default)
+-Active: Shows only incomplete tasks
+-Completed: Shows only finished tasks
 
-📖 Usage Guide
-➕ Adding Tasks
-Type your task in the input field
+## Project Structure
 
-Press Enter or click the "+ Add" button
-
-✅ Managing Tasks
-Complete: Click the checkbox
-
-Edit: Click the edit (✏️) button
-
-Delete: Click the delete (🗑️) button
-
-🔍 Filtering Tasks
-All: Shows all tasks (default)
-
-Active: Shows only incomplete tasks
-
-Completed: Shows only finished tasks
-
-📂 Project Structure
-plaintext
-Copy
-Edit
+```
 todo-list/
 ├── index.html          # Main HTML file
 ├── style.css           # CSS styles
 ├── script.js           # JavaScript functionality
 ├── README.md           # Project documentation
-└── Screenshots/        # Screenshots folder
-    ├── edit_task.png
-    ├── homepage.png
-    ├── task_completion.png
-    └── filter_tasks_completed.png
-🌟 Contributing
-Feel free to fork this repository and submit a pull request with improvements!
-
-📜 License
-This project is free to use under the MIT License.
+└── Screenshots/        # Screenshots
+    ├── screenshot-1.png
+    └── screenshot-2.png
+```
