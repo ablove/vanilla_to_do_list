@@ -32,26 +32,26 @@ A simple, responsive todo list application with persistent storage using localSt
 
 ## How to Run
 
-1. Clone this repository or download the files 
+1. Clone this repository or download the files
 
 2. Open the `index.html` file in your web browser
 3. No server or additional dependencies required
 
-## Usage Guide 📝
+## Usage Guide
 
 Adding Tasks
-Type your task in the input field
-Press Enter or click the "+ Add" button
+-Type your task in the input field
+-Press Enter or click the "+ Add" button
 
 Managing Tasks
-✔️ Complete: Click the checkbox
-✏️ Edit: Click the edit (pencil) button
-🗑️ Delete: Click the delete (trash) button
+-Complete: Click the checkbox
+-Edit: Click the edit (pencil) button
+-Delete: Click the delete (trash) button
 
 Filtering Tasks
-All: Shows all tasks (default)
-Active: Shows only incomplete tasks
-Completed: Shows only finished tasks
+-All: Shows all tasks (default)
+-Active: Shows only incomplete tasks
+-Completed: Shows only finished tasks
 
 ## Project Structure
 
